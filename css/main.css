@@ -1,0 +1,24 @@
+
+p {
+	margin: 0 5px 5px 20px;
+	font-size: 17px;
+	font-family: Ms PGothic;
+
+}
+
+.title{
+	color:#8B2252;
+	/*font-size:20px;*/
+}
+
+#shift_burron{
+	background-color: #EED2EE;
+	border-radius: 6px;
+	font-size: 15px;
+	/*font-color:#5D478B;*/
+	font-family: Comic Sans MS,arial,helvetica,sans-serif;
+	width: 100px;
+	height: 35px;	
+	border: 0px;
+}
+
