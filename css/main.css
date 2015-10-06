@@ -1,9 +1,13 @@
+.pattern{
 
+	text-align:center;
+	margin:0 auto;
+		
+}
 p {
 	margin: 0 5px 5px 20px;
 	font-size: 17px;
-	font-family: Ms PGothic;
-
+	font-family: Yu Gothic;	
 }
 
 .title{
@@ -17,8 +21,20 @@ p {
 	font-size: 15px;
 	/*font-color:#5D478B;*/
 	font-family: Comic Sans MS,arial,helvetica,sans-serif;
+	/*font-family: Yu Gothic;*/
 	width: 100px;
 	height: 35px;	
 	border: 0px;
 }
 
+.goBack{
+	background-color: #CD9B9B;
+	border-radius: 6px;
+	font-size: 15px;
+	/*font-color:#5D478B;*/
+	font-family: Comic Sans MS,arial,helvetica,sans-serif;
+	/*font-family: Yu Gothic;*/
+	width: 100px;
+	height: 35px;	
+	border: 0px;
+}
