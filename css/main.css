@@ -15,6 +15,15 @@ p {
 	/*font-size:20px;*/
 }
 
+#indexPics{
+	transition: all 2s;    
+}
+
+#indexPics:hover{
+	transition: all 2s;
+    transform: scale(2);
+}
+
 #shift_burron{
 	background-color: #EED2EE;
 	border-radius: 6px;

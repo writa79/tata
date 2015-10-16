@@ -36,8 +36,9 @@ $(document).ready(function(){
                         item: localStorage[x]
                     });
                 }
+                // debugger;
                 this.items = new Items(items, {addHandler: this.addToDoList.bind(this)});
-                debugger;
+                // debugger;
                 items.forEach(this.renderItem);
                 console.log("items", this.items);
             },
@@ -53,14 +54,14 @@ $(document).ready(function(){
                 $parent.remove();
                 this.items.remove(id);
                 localStorage.removeItem(id);
-                console.log(this.items);
+                console.log("deleteItem",this.items);
             },
             addItem: function () {
                 var item_title = $("input[name=item_title]").val() || "";            
                 var item = new Item({'item': item_title});
-                debugger            
+                // debugger            
                 this.items.add(item);
-                console.log(this.items);
+                console.log("addItem",this.items);
                        
             },
             renderItem: function(attrs) {
@@ -69,10 +70,11 @@ $(document).ready(function(){
             },
             addToDoList: function (model) {
 
-                // console.log(model);         
+                console.log("addToDoList model",model);         
                 // _.each(model.get('item'), function(val, key) {       
                 // console.log( model.get('item'));
-                // console.log(model.cid);                
+                // console.log(model.cid);          
+                debugger;
                 localStorage.setItem(model.cid, model.get('item'));
                 var item = model.toJSON();
                 item.id = item.id || model.cid;

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#shift_burron").click(function(){
+    $("#shiftButton").click(function(){
         $(".shift").toggle();
     });    
 
