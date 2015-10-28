@@ -47,3 +47,27 @@ p {
 	height: 35px;	
 	border: 0px;
 }
+
+.container{
+  margin: 40px auto;
+}
+
+ul{
+  margin-top: 15px;
+  padding-left: 0px;
+}
+li{
+  clear: both;
+  position: relative;
+  list-style-type: none;
+}
+
+li .edit{
+  display:none;
+}
+li.editing .edit{
+  display:block;
+}
+li.editing .display{
+  display:none;
+}
